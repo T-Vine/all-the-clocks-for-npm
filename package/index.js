@@ -1,7 +1,7 @@
 function pingFunc() {
     console.log("Ping! Online...");
 }
-class Clock {
+class clock {
     constructor() {
         this.UI = {};
         this.body = document.body;
@@ -75,7 +75,7 @@ class Clock {
         this.UI.sec2.textContent = timeArr[2][1];
     };
 }
-class ClockWithDate extends Clock {
+class clockWithDate extends clock {
     constructor() {
         super();
         this.UI = {};
@@ -149,7 +149,7 @@ class ClockWithDate extends Clock {
         this.UI.day.textContent = days[day - 1];
     };
 }
-class StopWatch extends Clock {
+class stopWatch extends clock {
     constructor() {
         super();
         this.UI = {};
@@ -334,4 +334,4 @@ class StopWatch extends Clock {
         this.UI.hour2.textContent = 0;
     }
 }
-export { pingFunc, Clock, ClockWithDate, StopWatch }; // Exporting classes and functions.
+export { pingFunc, clock, clockWithDate, stopWatch }; // Exporting classes and functions.
