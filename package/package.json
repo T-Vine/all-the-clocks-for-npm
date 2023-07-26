@@ -1,6 +1,6 @@
 {
   "name": "all-the-clocks",
-  "version": "1.0.2",
+  "version": "2.0.1",
   "description": "A package for adding simple javascript/SVG digital clocks and stopwatches into a website. Future functionality is planned!",
   "exports": "./index.js",
   "type": "module",

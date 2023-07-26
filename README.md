@@ -6,12 +6,11 @@ Web-development can be tricky - but you don't always want full frameworks or CSS
 A simple EcmaScript 6 module that allows for simple clocks to be added (with one line!) to a web page. Current capabilities include:
 - Digital Clock
 - Digital Clock With Date
-- Stopwatch (note: some accuracy lost when stopped)
+- Stopwatch
 
 Future Functionality planned includes:
 - Analogue Clocks
 - Timers
-- Accurate stopping
 
 ## Usage
 Install using 'npm i all-the-clocks'. 
