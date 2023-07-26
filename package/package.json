@@ -1,0 +1,25 @@
+{
+  "name": "all-the-clocks",
+  "version": "1.0.0",
+  "description": "A package for adding simple javascript/SVG digital clocks and stopwatches into a website. Future functionality is planned!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T-Vine/all-the-clocks-for-npm.git"
+  },
+  "keywords": [
+    "clocks",
+    "digital",
+    "stopwatch",
+    "SVG"
+  ],
+  "author": "T-Vine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/T-Vine/all-the-clocks-for-npm/issues"
+  },
+  "homepage": "https://github.com/T-Vine/all-the-clocks-for-npm#readme"
+}
