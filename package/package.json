@@ -1,9 +1,9 @@
 {
   "name": "all-the-clocks",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A package for adding simple javascript/SVG digital clocks and stopwatches into a website. Future functionality is planned!",
   "exports": "./index.js",
-  "type" : "module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,7 +23,7 @@
     "url": "https://github.com/T-Vine/all-the-clocks-for-npm/issues"
   },
   "homepage": "https://github.com/T-Vine/all-the-clocks-for-npm#readme",
-  "engines" : {
+  "engines": {
     "node": " >=14.13.1 || >=16.0.0"
   }
 }
