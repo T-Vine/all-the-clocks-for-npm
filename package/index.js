@@ -14,7 +14,7 @@ class clock {
             ' <style> .digits, .colons, .date-text, .day-text {fill: #fff;fill-opacity: 0.7;}\
             .inner, .date, .day {fill: grey;fill-opacity: 0.7;}\
             .start, .stop, .clear {fill: darkblue;fill-opacity: 0.7;fill-opacity: 0.5;}</style>\
-            <svg class="outer" width="450" height="150"> \
+            <svg viewBox="0 0 450 150" class="outer" width="450" height="150"> \
           <rect x="25" y="25" rx="25" ry="25" width="400" height="100"/> \
           <!-- Hours --> \
           <rect class="inner" x="45" y="35" rx="8" ry="8" width="43.75" height="80" /> \
@@ -94,7 +94,7 @@ class clockWithDate extends clock {
     initClockWD() {
         const clock = document.createElement("span");
         clock.innerHTML =
-            ' <svg class="outer" width="450" height="150"> \
+            ' <svg viewBox="0 0 450 150" class="outer" width="450" height="150"> \
           <!-- Outer --> \
           <rect x="25" y="25" rx="25" ry="25" width="400" height="115"/> \
           <!-- Hours --> \
@@ -178,7 +178,7 @@ class stopWatch extends clock {
     initClockSW() {
         const clock = document.createElement("span");
         clock.innerHTML =
-            ' <svg class="outer" width="470" height="150"> \
+            ' <svg viewBox="0 0 470 150" class="outer" width="470" height="150"> \
           <rect x="25" y="25" rx="25" ry="25" width="440" height="100"/> \
           <!-- Hours --> \
           <rect class="inner" x="45" y="35" rx="8" ry="8" width="43.75" height="80" /> \
