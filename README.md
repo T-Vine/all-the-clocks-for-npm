@@ -20,3 +20,6 @@ Types of clocks you can import include:
 - 'clockWithDate': a digital clock with date.
 - 'stopWatch': a stopwatch.
 To initialise these clocks have a Javascript line of 'new [type of clock]()'. E.g. if a new stopwatch is wanted, do 'new stopWatch()'. Variable assignment isn't required and clocks will function independently. Note that for the base clock (plain digital) it must be initialised with 'new clock().init()' as it provides the templates for the others.
+
+This is based off of my original 'all-the-clocks' repository on Github - see there the coding journey that occurred!
+See the Package Readme on NPM for more information.
