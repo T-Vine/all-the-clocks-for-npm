@@ -134,19 +134,19 @@ class clockWithDate extends clock {
         let day;
         let days;
         days = [
+            "Sunday",
             "Monday",
             "Tuesday",
             "Wednesday",
             "Thursday",
             "Friday",
             "Saturday",
-            "Friday",
         ];
         date = new Date().toLocaleDateString();
         day = new Date().getDay();
         this.updateClock();
         this.UI.date.textContent = date;
-        this.UI.day.textContent = days[day - 1];
+        this.UI.day.textContent = days[day];
     };
 }
 class stopWatch extends clock {
